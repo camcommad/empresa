@@ -12,7 +12,7 @@
         <Button fx:id="button" layoutX="138.0" layoutY="150.0" onAction="#mostrarUsuario" text="Login" />
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
       <TextField fx:id="txtFieldUsuario" layoutX="128.0" layoutY="66.0" />
-      <PasswordField id="txtFieldPassword" layoutX="128.0" layoutY="108.0" />
+      <PasswordField fx:id="txtFieldPassword" layoutX="128.0" layoutY="108.0" />
       <Label layoutX="37.0" layoutY="70.0" text="Usuario" />
       <Label layoutX="37.0" layoutY="112.0" text="Password" />
       <Text fx:id="txtMensajeLogin" layoutX="138.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" />
